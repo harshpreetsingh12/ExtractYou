@@ -1,0 +1,136 @@
+body{
+    background-color: #a400ff;
+}
+#bookc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#buttonadd{
+    position: absolute;
+    bottom: -23px;
+    right: -11px;
+}
+#onreturn{
+    position: absolute;
+    bottom: -23px;
+    right: -23px;
+}
+.color{
+    border-color: red;
+}
+/* .headi{
+    position: relative;
+}
+#backlib{
+position: relative;
+} */
+/* .datesec{
+    display: flex;
+} */
+.time{
+    display: flex;
+}
+.time p{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+margin-right:20px ;
+}
+.container2{
+    /* height: 400px; */
+    width: 90%;
+    /* border: 1px solid; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container2 p1{
+display: flex;
+flex-direction: column;
+
+}
+.container2 p1 p{
+    margin: 0px;
+
+}
+input ::placeholder{
+    color: black;
+}
+#tbody{
+    border-style: none;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: none;
+    color: white;
+}
+h2{
+    color: white;
+}
+.inform{
+    width: 302px;
+    height: 224px;
+}
+.containerr{
+    /* margin: 200px 0px; */
+    margin: 0 auto;
+    width: 40%;
+    /* border: 1px solid; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.containerr p4{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* width: 26%; */
+    margin-left: 21px;
+    border-left: 3px solid;
+    /* padding-left: 12px; */
+}
+.insidel{
+    height: 0px;
+    width: 10px;
+    border: 1.5px solid
+}
+
+.containerr p4 a{
+    text-decoration: none;
+    color: black;
+}
+.containerr p4 {
+    margin-top: 32px;
+ position: relative;
+}
+.containerr p4 pm{
+    position: absolute;
+    top: -27px;
+    left: -12px;
+    border: 0px solid;
+    font-size: 18px;
+    font-weight: bold;
+}
+.containerr pmm{
+    /* position: absolute;
+    top: -27px;
+    left: -12px; */
+    border: 0px solid;
+    font-size: 18px;
+    font-weight: bold;
+}
+.strucb {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}

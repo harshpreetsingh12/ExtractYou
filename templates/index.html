@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="Container">
+  <div class="container my3" style="justify-content: center;
+  display: flex; margin: 131px auto;">
+    <form class="inform" action="/Homeins"  method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="nfile" class="form-label">
+          </label>
+          <input style="height: 85px;
+          background-color: rebeccapurple;" placeholder="Choose your file" type="file" class="form-control" name="nfile" id="nfile" >
+          <p style="color: white;">Upload your rar file</p>
+        </div>
+        <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label> 
+        </div> -->
+        <button style=margin-top:10px type="submit" class="btn btn-dark">Submit</button>
+      </form>
+</div>
+ </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+     
+{% endblock body %}
